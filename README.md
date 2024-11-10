@@ -1,7 +1,7 @@
 # Bearish-Notes
 In this notebook, I describe how to value this type of note. Below I provide the mathematical equation of the payoff that the holder will receive.
 
-A bearish note is a type of structured product whereby the holder of the note looks to benefit from the decline in the price of the underlying stock. In this type of note, the holder is guaranteed to receive the full capital of what they initially invested.
+A bearish note is a type of structured product whereby the holder of the note looks to benefit from the decline in the price of the underlying stock. In this type of note, the holder is guaranteed to receive the full capital of what they initially invested. So this is a type of capital protected product.
 
 Let $N$ be the capital amount that the holder initially invests and $S$ be the underlying stock. The payoff $V_T$ at maturity at $T$ is:
 $$V_T=N\left(1+\beta\times\max\left(1-\frac{S_T}{S_0}, 0\right)\right)=N+\frac{F\cdot \beta}{S_0}\times\max\left(S_0-S_T,0\right),$$
